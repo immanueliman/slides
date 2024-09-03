@@ -25,12 +25,12 @@ Before you begin, ensure you have the following installed on your system:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/immanueliman/slides.git
     ```
    
 2. **Navigate to the project directory**:
     ```bash
-    cd your-repo-name
+    cd slides
     ```
 
 3. **Install dependencies**:
