@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .presentation-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .slides-list {
+    width: 25%;
+    background-color: #f3f3f3;
+    border-right: 2px solid #ccc;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .slide-thumbnail {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  }
+  
+  .slide-thumbnail:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slide-thumbnail.active {
+    border-color: #6200ea;
+    background-color: #e0e0e0;
+    font-weight: bold;
+  }
+  
+  .slide-viewer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+  }
+  
+  .slide-content {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid #ccc;
+  }
+  
+  .footer button {
+    margin: 0 1rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #6200ea;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .footer button:hover {
+    background-color: #6200ea;
+    color: #ffffff;
+  }
+  
+  .slide-thumbnail {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 50px; /* Adjust the height for better visibility */
+    overflow: hidden; /* Ensure that large content doesn't overflow */
+  }
+  
+  .slide-thumbnail.active {
+    border-color: #6200ea;
+  }
+  
+  .slide-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import './App.css';
 
+import Presentation from './Slides/Presentation';
+
+
 function App() {
+  // Always call useRef, but handle conditional usage in your logic
+  const myRef = useRef(null);
+
+  // Example of using the ref conditionally based on isBrowser
+  if (typeof window !== "undefined") {
+    console.log(myRef);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <OpeningSlide /> */}
+      <Presentation/>
+
     </div>
   );
 }
