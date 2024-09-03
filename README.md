@@ -1,4 +1,5 @@
 # My Enhanced Presentation
+![image (11)](https://github.com/user-attachments/assets/d15a7b63-ee8e-451a-b737-a422c631e846)
 
 ## Overview
 
